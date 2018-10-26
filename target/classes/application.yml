@@ -4,3 +4,13 @@ spring:
     username: root
     password: 1234
     driver-class-name: com.mysql.jdbc.Driver
+server:
+  port: 7777
+com:
+  ddd:
+    a: 23
+    b: 45
+
+mybatis:
+ mapper-locations: classpath:mapper/*.xml
+ type-aliases-package: com.hdd.shiro_new_demo.dao
